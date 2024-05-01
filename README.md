@@ -24,3 +24,6 @@ Use the parameter `--pretrained_model` to set a specific pretrained model to loa
 python main.py --phase test --n_blocks 28 --block res  --pretrained_model /path/to/pretrained_model --data_dir /path/to/modelnet40
 ```
 
+### PS
+data.py is the original dataloader provided by the authors of the paper. input.py is the modified dataloader.
+
